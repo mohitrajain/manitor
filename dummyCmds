@@ -1,0 +1,4 @@
+lsmod | grep dummy
+modprobe -v dummy
+ip link add man0 type dummy
+ifconfig man0 up
